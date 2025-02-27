@@ -4,16 +4,6 @@ import "./header.css";
 export function Header() {
   return (
     <Box as="header">
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossOrigin="anonymous"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
-        rel="stylesheet"
-      />
       <Text
         as="h1"
         textStyle="7xl"
