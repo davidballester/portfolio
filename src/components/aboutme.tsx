@@ -8,9 +8,12 @@ export function AboutMe() {
         About me
       </Text>
       <Text as="p" textStyle="xl">
-        I've been a <strong>software developer since 2010</strong>. I started on
-        the Healthcare industry and now I'm working in video advertising. Here's
-        a shortened list of different technologies and languages I've used:
+        I've been <strong>building software since 2010</strong>. Started in{" "}
+        <strong>healthcare</strong>, now working in{" "}
+        <strong>video advertising</strong>. Over the years I've worked as a
+        developer, <strong>tech lead</strong> and now more on the{" "}
+        <strong>architecture</strong> side of things. Here are some of the
+        technologies and languages I've used along the way:
       </Text>
       <TagCloud
         tags={[

@@ -14,11 +14,11 @@ export function Header() {
         David Ballester Mena
       </Text>
       <Text textStyle="xl" textAlign="center">
-        I am a web developer with{" "}
+        Hey, I am a web developer with{" "}
         <strong className="playful-text variant">
           10+ years of experience
         </strong>
-        . Welcome to my portfolio!
+        .
       </Text>
     </Box>
   );

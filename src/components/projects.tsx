@@ -5,12 +5,12 @@ export function Projects() {
   return (
     <>
       <Text as="h2" textStyle="4xl" fontWeight="bold" className="playful-text">
-        Fun side projects
+        Fun Stuff I Built
       </Text>
       <VStack gap="6">
         <Project
           title="Guess the TV Show!"
-          description="This is a simple quizz where you have to guess the TV shows based on a few seconds of its soundtrack. The soundtracks come from YouTube, and the entire video is revealed when you guess the TV show."
+          description="A simple quiz where you guess TV shows based on short soundtrack clips from YouTube."
           url="https://tvshowsoundtrackquizz.netlify.app/"
           githubUrl="https://github.com/davidballester/soundtrack-quizz"
           tags={["game", "next.js"]}
@@ -18,7 +18,7 @@ export function Projects() {
         />
         <Project
           title="ASCII Shader"
-          description="An ASCII shader applied to your webcam feed or a video uploaded to your browser."
+          description="Applies an ASCII shader to your webcam feed or an uploaded video, all in your browser."
           url="https://asciishader.netlify.app/"
           githubUrl="https://github.com/davidballester/ascii-web-shader"
           tags={["proof-of-concept"]}
@@ -26,14 +26,14 @@ export function Projects() {
         />
         <Project
           title="EWF Dots Map"
-          description="This was the result of a small freelance collaboration with the Energy Web Foundation. I took care of the implementation."
+          description="A project from a small freelance collaboration with the design team at the Energy Web Foundation."
           url="https://ewf-dots-map.netlify.app/"
           tags={["freelance", "react"]}
           imgSrc="/ewfdotsmap.png"
         />
         <Project
           title="A Dirty Trail"
-          description="A choose your own adventure game, with RPG elements and turn-based combat, featuring a unique dark and funny narration inspired by the weird west subgenre."
+          description="A choose-your-own-adventure game with RPG elements and turn-based combat, featuring a narration inspired by the weird west subgenre."
           url="https://adirtytrail.netlify.app/"
           githubUrl="https://github.com/davidballester/a-dirty-trail-webapp"
           tags={["game", "next.js"]}
@@ -41,7 +41,7 @@ export function Projects() {
         />
         <Project
           title="Grapher"
-          description="The mandatory force graph website. The twist here is the definition of a grammar to write down graphs in pseudocode."
+          description="A force graph website with a twist: it uses a custom grammar to define graphs in pseudocode."
           url="https://grapher.tech/"
           githubUrl="https://github.com/davidballester/grapher"
           tags={["productivity", "react"]}
@@ -49,7 +49,7 @@ export function Projects() {
         />
         <Project
           title="Jumping Game"
-          description="The simplest 2D platformer ever. A fun learning exercise to get to know Godot."
+          description="The simplest 2D platformer ever—just a fun learning project to get to know Godot."
           url="https://davidballestermena.itch.io/jumping-game"
           githubUrl="https://github.com/davidballester/MyPlatformer"
           tags={["game", "godot"]}
