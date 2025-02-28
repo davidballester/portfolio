@@ -1,3 +1,4 @@
+import { AboutMe } from "@/components/aboutme";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Projects } from "@/components/projects";
@@ -10,6 +11,7 @@ export default function Home() {
         <Box mt="12">
           <Header />
         </Box>
+        <AboutMe />
         <Projects />
         <Box mb="12">
           <Footer />
