@@ -14,7 +14,7 @@ export function Projects() {
           url="https://tvshowsoundtrackquizz.netlify.app/"
           githubUrl="https://github.com/davidballester/soundtrack-quizz"
           tags={["game", "next.js"]}
-          imgSrc="/guessthetvshow.png"
+          imgSrc="/guessthetvshow.webp"
         />
         <Project
           title="ASCII Shader"
@@ -22,14 +22,14 @@ export function Projects() {
           url="https://asciishader.netlify.app/"
           githubUrl="https://github.com/davidballester/ascii-web-shader"
           tags={["proof-of-concept"]}
-          imgSrc="/asciishader.png"
+          imgSrc="/asciishader.webp"
         />
         <Project
           title="EWF Dots Map"
           description="A project from a small freelance collaboration with the design team at the Energy Web Foundation."
           url="https://ewf-dots-map.netlify.app/"
           tags={["freelance", "react"]}
-          imgSrc="/ewfdotsmap.png"
+          imgSrc="/ewfdotsmap.webp"
         />
         <Project
           title="A Dirty Trail"
@@ -37,7 +37,7 @@ export function Projects() {
           url="https://adirtytrail.netlify.app/"
           githubUrl="https://github.com/davidballester/a-dirty-trail-webapp"
           tags={["game", "next.js"]}
-          imgSrc="/adirtytrail.png"
+          imgSrc="/adirtytrail.webp"
         />
         <Project
           title="Grapher"
@@ -45,7 +45,7 @@ export function Projects() {
           url="https://grapher.tech/"
           githubUrl="https://github.com/davidballester/grapher"
           tags={["productivity", "react"]}
-          imgSrc="/grapher.png"
+          imgSrc="/grapher.webp"
         />
         <Project
           title="Jumping Game"
@@ -53,7 +53,7 @@ export function Projects() {
           url="https://davidballestermena.itch.io/jumping-game"
           githubUrl="https://github.com/davidballester/MyPlatformer"
           tags={["game", "godot"]}
-          imgSrc="/jumpinggame.png"
+          imgSrc="/jumpinggame.webp"
         />
       </VStack>
     </VStack>
