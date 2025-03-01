@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Provider } from "@/components/ui/provider";
 import { Box } from "@chakra-ui/react";
+import "./global.css";
 
 export const metadata: Metadata = {
   title: "David Ballester Mena",
