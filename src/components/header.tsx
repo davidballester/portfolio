@@ -1,8 +1,8 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Text, VStack } from "@chakra-ui/react";
 
 export function Header() {
   return (
-    <Box as="header">
+    <VStack as="header" gap={{ base: 6, md: 3 }}>
       <Text
         as="h1"
         textStyle="7xl"
@@ -19,6 +19,6 @@ export function Header() {
         </strong>
         .
       </Text>
-    </Box>
+    </VStack>
   );
 }

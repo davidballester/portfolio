@@ -17,8 +17,17 @@ export function Project({
   githubUrl?: string;
 }) {
   return (
-    <Card.Root flexDirection="row" overflow="hidden" maxW="xl">
-      <Image objectFit="scale-down" maxW="200px" src={imgSrc} alt={title} />
+    <Card.Root
+      flexDirection={{ base: "column", md: "row" }}
+      overflow="hidden"
+      maxW={{ base: "sm", md: "xl" }}
+    >
+      <Image
+        objectFit="scale-down"
+        maxW={{ base: "full", md: "200px" }}
+        src={imgSrc}
+        alt={title}
+      />
       <Box>
         <Card.Body>
           <Card.Title mb="2">{title}</Card.Title>
