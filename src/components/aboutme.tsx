@@ -1,9 +1,9 @@
-import { Text } from "@chakra-ui/react";
+import { Text, VStack } from "@chakra-ui/react";
 import { TagCloud } from "./tagCloud";
 
 export function AboutMe() {
   return (
-    <>
+    <VStack gap="6">
       <Text as="h2" textStyle="4xl" fontWeight="bold" className="playful-text">
         About me
       </Text>
@@ -35,6 +35,6 @@ export function AboutMe() {
           { tag: "Angular", type: "frontend" },
         ]}
       />
-    </>
+    </VStack>
   );
 }

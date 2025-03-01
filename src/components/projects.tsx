@@ -3,7 +3,7 @@ import { Project } from "./project";
 
 export function Projects() {
   return (
-    <>
+    <VStack gap="6">
       <Text as="h2" textStyle="4xl" fontWeight="bold" className="playful-text">
         Fun Stuff I Built
       </Text>
@@ -56,6 +56,6 @@ export function Projects() {
           imgSrc="/jumpinggame.png"
         />
       </VStack>
-    </>
+    </VStack>
   );
 }

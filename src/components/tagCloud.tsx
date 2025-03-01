@@ -1,4 +1,4 @@
-import { Badge, HStack, VStack } from "@chakra-ui/react";
+import { Badge, Flex, VStack } from "@chakra-ui/react";
 import {
   LuBringToFront,
   LuChartArea,
@@ -32,7 +32,7 @@ export function TagCloud({ tags }: { tags: ITag[] }) {
     return acc;
   }, {} as { [type: string]: string[] });
   return (
-    <HStack gap="3">
+    <Flex gap="3" direction="row" wrap="wrap">
       {tagTypes.map((type) => (
         <VStack key={type} gap="3" alignItems="initial">
           {typeToTags[type].map((tag) => (
@@ -43,7 +43,7 @@ export function TagCloud({ tags }: { tags: ITag[] }) {
           ))}
         </VStack>
       ))}
-    </HStack>
+    </Flex>
   );
 }
 
