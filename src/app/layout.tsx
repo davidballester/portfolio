@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -32,7 +32,6 @@ export default function RootLayout({
       <body>
         <Provider>
           <Box
-            className="dark"
             background={`
               radial-gradient(ellipse at top, #111, transparent),
               radial-gradient(ellipse at center, #ff159520, transparent),
