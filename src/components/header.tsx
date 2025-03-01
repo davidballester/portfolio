@@ -1,4 +1,7 @@
 import { Text, VStack } from "@chakra-ui/react";
+import { Lilita_One } from "next/font/google";
+
+const lilitaOne = Lilita_One({ subsets: ["latin"], weight: "400" });
 
 export function Header() {
   return (
@@ -6,9 +9,8 @@ export function Header() {
       <Text
         as="h1"
         textStyle="7xl"
-        fontFamily={'"Lilita One", serif'}
         textAlign="center"
-        className="playful-text"
+        className={`playful-text ${lilitaOne.className}`}
       >
         David Ballester Mena
       </Text>
