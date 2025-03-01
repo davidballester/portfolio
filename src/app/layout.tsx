@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import { Provider } from "@/components/ui/provider";
 import { Box } from "@chakra-ui/react";
@@ -30,7 +31,22 @@ export default function RootLayout({
       </head>
       <body>
         <Provider>
-          <Box className="dark">{children}</Box>
+          <Box
+            className="dark"
+            background={`
+              radial-gradient(ellipse at top, #111, transparent),
+              radial-gradient(ellipse at center, #ff159520, transparent),
+              radial-gradient(ellipse at bottom, #111, transparent);
+            `}
+          >
+            <Box
+              backgroundImage="radial-gradient(#ffe52e20 0.5px, transparent 0.5px)"
+              backgroundSize="15px 15px"
+              backgroundRepeat="repeat"
+            >
+              {children}
+            </Box>
+          </Box>
         </Provider>
       </body>
     </html>
