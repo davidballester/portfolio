@@ -62,21 +62,6 @@ function useTypeToVariant({ tags }: { tags: ITag[] }): {
   return typeToVariant;
 }
 
-function useRandomPositions({
-  length,
-}: {
-  length: number;
-}): Array<{ top: number; left: number }> {
-  const basePositions = new Array(length).fill(null).map((_, index) => ({
-    top: (100 * index) / length,
-    left: (100 * index) / length,
-  }));
-  return basePositions.map(({ top, left }) => ({
-    top: top + Math.round((Math.random() - 0.5) * 10),
-    left: top + Math.round((Math.random() - 0.5) * 10),
-  }));
-}
-
 function TagTypeIcon({ tagType }: { tagType: ITagType }) {
   switch (tagType) {
     case "analytics": {
