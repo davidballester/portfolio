@@ -9,6 +9,14 @@ export function Projects() {
       </Text>
       <VStack gap="6">
         <Project
+          title="Maze Crawler"
+          description="Generate a random maze, customize its interactions, and challenge your friends to explore it."
+          url="https://mazecrawl.netlify.app/"
+          githubUrl="https://github.com/davidballester/maze-creator"
+          tags={["game", "svelte"]}
+          imgSrc="/mazecrawler.webp"
+        />
+        <Project
           title="Guess the TV Show!"
           description="A simple quiz where you guess TV shows based on short soundtrack clips from YouTube."
           url="https://tvshowsoundtrackquizz.netlify.app/"
